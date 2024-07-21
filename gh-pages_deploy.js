@@ -3,8 +3,8 @@ const ghPages = require('gh-pages');
 ghPages.publish(
   'public', {
     user: {
-      name: 'Varun Dey',
-      email: 'varundey20@gmail.com'
+      name: 'Dishank Oza',
+      email: 'dishankoza@outlook.com'
     },
     branch: 'master',
     message: 'Deploy commit from gh-pages',

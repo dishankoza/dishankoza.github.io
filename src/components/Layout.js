@@ -68,22 +68,9 @@ const Layout = ({ children }) => {
         <meta property="og:description" content="Personal Portfolio of Dishank Oza" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://dishank.github.io" />
-        <meta
-          property="og:image"
-          content="https://varundey.me/social-meta.png"
-        />
-        <meta
-          property="og:image:secure_url"
-          content="https://varundey.me/social-meta.png"
-        />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Dishank Oza" />
         <meta name="twitter:description" content="Personal Portfolio of Dishank Oza" />
-        <meta
-          name="twitter:image"
-          content="https://varundey.me/social-meta.png"
-        />
-        <meta name="twitter:creator" content="@AsDeyQuote" />
       </Helmet>
 
       <StyledHeader>

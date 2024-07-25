@@ -27,7 +27,7 @@ const BlogListing = ({ posts }) => {
   const postLinks = posts.map(post => {
     return (
       <StyledBlogItem key={post.node.fields.slug}>
-        <StyledBlogLink to={post.node.fields.slug}>
+        <StyledBlogLink to={post.node.frontmatter.link ?? post.node.fields.slug}>
           {post.node.frontmatter.title}
         </StyledBlogLink>
         <DateSpan>({post.node.frontmatter.date})</DateSpan>

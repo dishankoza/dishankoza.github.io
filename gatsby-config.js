@@ -66,8 +66,14 @@ module.exports = {
     },{
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'talks',
-        path: `${__dirname}/src/content/talks`
+        name: 'education',
+        path: `${__dirname}/src/content/education`
+      }
+    },{
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'workEx',
+        path: `${__dirname}/src/content/workEx`
       }
     },
     // {

@@ -14,7 +14,7 @@ const ProjectTemplate = ({ data }) => {
     <Layout>
       {frontmatter.title && (
         <Helmet>
-          <title>Varun Dey | {frontmatter.title}</title>
+          <title>Dishank Oza | {frontmatter.title}</title>
         </Helmet>
       )}
       <h1>{frontmatter.title}</h1>

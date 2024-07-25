@@ -61,7 +61,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
             value: 'post'
           });
           break;
-        case 'talks':
+        case 'education':
           slug = createFilePath({
             node,
             getNode
@@ -70,13 +70,31 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
           createNodeField({
             node,
             name: 'slug',
-            value: `/talks${slug}`
+            value: `/education${slug}`
           });
 
           createNodeField({
             node,
             name: 'type',
-            value: 'talks'
+            value: 'education'
+          });
+          break;
+        case 'workEx':
+          slug = createFilePath({
+            node,
+            getNode
+          });
+
+          createNodeField({
+            node,
+            name: 'slug',
+            value: `/workEx${slug}`
+          });
+
+          createNodeField({
+            node,
+            name: 'type',
+            value: 'workEx'
           });
           break;
         case 'pages':

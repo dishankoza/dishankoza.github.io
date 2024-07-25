@@ -1,8 +1,9 @@
 {
-  "name": "prestonrichey.com",
+  "name": "dishank.github.io",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://dishank.github.io",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build --verbose",

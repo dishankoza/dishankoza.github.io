@@ -61,8 +61,8 @@ const ListElement = styled.li`
 const NavItem = styled(Link).attrs({
   activeClassName
 })`
+  border-color: #999 !important;
   color: black;
-  border: none;
 
   &:hover {
     color: blue;
@@ -86,9 +86,14 @@ const Nav = () => {
   return (
     <StyledNav>
       <StyledList>
+      <ListElement>
+          <NavItem to="/education/" activeClassName={activeClassName}>
+            education
+          </NavItem>
+        </ListElement>
         <ListElement>
-          <NavItem to="/blog/" activeClassName={activeClassName}>
-            blog
+          <NavItem to="/workEx/" activeClassName={activeClassName}>
+            workEx
           </NavItem>
         </ListElement>
         <ListElement>
@@ -97,8 +102,8 @@ const Nav = () => {
           </NavItem>
         </ListElement>
         <ListElement>
-          <NavItem to="/talks/" activeClassName={activeClassName}>
-            talks
+          <NavItem to="/blogs/" activeClassName={activeClassName}>
+            blogs
           </NavItem>
         </ListElement>
       </StyledList>

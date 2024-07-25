@@ -42,7 +42,7 @@ const StyledTitle = styled.h1`
 `;
 
 const TitleLink = styled(Link)`
-  text-transform: lowercase;
+  // text-transform: lowercase;
   color: #000;
   text-decoration: none;
   border: none;
@@ -63,11 +63,11 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Rubik:700"
           rel="stylesheet"
         />
-        <title>Varun Dey</title>
-        <meta property="og:title" content="Varun Dey" />
-        <meta property="og:description" content="Personal Portfolio of Varun Dey" />
+        <title>Dishank Oza</title>
+        <meta property="og:title" content="Dishank Oza" />
+        <meta property="og:description" content="Personal Portfolio of Dishank Oza" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://varundey.me" />
+        <meta property="og:url" content="https://dishank.github.io" />
         <meta
           property="og:image"
           content="https://varundey.me/social-meta.png"
@@ -77,8 +77,8 @@ const Layout = ({ children }) => {
           content="https://varundey.me/social-meta.png"
         />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Varun Dey" />
-        <meta name="twitter:description" content="Personal Portfolio of Varun Dey" />
+        <meta name="twitter:title" content="Dishank Oza" />
+        <meta name="twitter:description" content="Personal Portfolio of Dishank Oza" />
         <meta
           name="twitter:image"
           content="https://varundey.me/social-meta.png"
@@ -88,7 +88,7 @@ const Layout = ({ children }) => {
 
       <StyledHeader>
         <StyledTitle>
-          <TitleLink to="/">Varun Dey</TitleLink>
+          <TitleLink to="/">Dishank Oza</TitleLink>
         </StyledTitle>
 
         <Nav />

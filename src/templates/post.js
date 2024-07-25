@@ -32,7 +32,7 @@ const PostTemplate = ({ data }) => {
     <Layout>
       {frontmatter.title && (
         <Helmet>
-          <title>Varun Dey | {frontmatter.title}</title>
+          <title>Dishank Oza | {frontmatter.title}</title>
         </Helmet>
       )}
       {frontmatter.title && (
@@ -62,7 +62,6 @@ query ($slug: String!) {
     frontmatter {
       title
       date
-      excerpt
     }
     body
   }
